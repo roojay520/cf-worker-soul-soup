@@ -1,0 +1,22 @@
+{
+  "name": "cf-worker-soul-soup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/roojay520/cf-worker-soul-soup.git",
+  "author": "roojay <roojay520@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "wrangler build",
+    "serve": "wrangler preview --watch",
+    "publish": "wrangler publish",
+    "lint": "eslint -c .eslintrc.js --fix **/*.js"
+  },
+  "dependencies": {
+    "service-worker-router": "^1.7.5"
+  },
+  "devDependencies": {
+    "eslint": "6.1.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
