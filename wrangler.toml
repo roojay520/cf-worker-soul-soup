@@ -4,3 +4,4 @@ account_id = "ed99589c08b7d30100abca9cc5c90aac"
 workers_dev = true
 route = ""
 zone_id = "375f0f6b6350da8d18b8fc0f39fa0c41"
+webpack_config = "webpack.config.js"
