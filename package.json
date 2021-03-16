@@ -38,7 +38,7 @@
     ]
   },
   "dependencies": {
-    "itty-router": "^1.2.10"
+    "itty-router": "^2.1.9"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
