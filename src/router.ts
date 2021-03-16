@@ -12,7 +12,7 @@ interface Req extends Request {
 
 const getData = (id?: number | string) => {
   let index = id;
-  if (index) index = +index;
+  if (index) index = +index + 1;
   const maxLen = sourceData.length;
   if (!Number.isInteger(index) || (index as number) > maxLen) {
     index = Math.floor(Math.random() * maxLen);
