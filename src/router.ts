@@ -10,7 +10,7 @@ const getData = (id?: number | string) => {
   let index = id;
   if (index) index = Number(id);
   const maxLen = sourceData.length;
-  if (!Number.isInteger(index) || (index as number) >= maxLen || (index as number) < 1) {
+  if (!Number.isInteger(index) || (index as number) > maxLen || (index as number) < 1) {
     index = getRandom(1, maxLen);
   }
   const data = { id: index, title: sourceData[(index as number) - 1] };
